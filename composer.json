@@ -1,0 +1,19 @@
+{
+    "name": "braseidon/steam-web-api-laravel",
+    "description": "",
+    "type": "library",
+    "keywords": ["steam", "api", "condenser", "php", "wrapper", "laravel", "inventory", "stats"],
+    "homepage": "https://github.com/braseidon/steam-web-api-laravel",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "koraktor/steam-condenser": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Braseidon\\SteamWebAPI\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
