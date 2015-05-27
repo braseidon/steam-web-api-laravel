@@ -1,4 +1,4 @@
-<?php namespace App\Poseidon\SteamAPI\Traits;
+<?php namespace Braseidon\SteamWebAPI\Traits;
 
 trait Cached
 {

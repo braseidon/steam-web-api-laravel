@@ -1,6 +1,6 @@
-<?php namespace App\Poseidon\SteamAPI\Exceptions;
+<?php namespace Braseidon\SteamWebAPI\Exceptions;
 
-class WebAPIException extends SteamAPIException
+class WebAPIException extends SteamWebAPIException
 {
 
     const HTTP_ERROR   = 0;

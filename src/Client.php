@@ -1,6 +1,6 @@
-<?php namespace App\Poseidon\SteamAPI;
+<?php namespace Braseidon\SteamWebAPI;
 
-use App\Poseidon\SteamAPI\Traits\Cached;
+use Braseidon\SteamWebAPI\Traits\Cached;
 use Exception;
 
 class WebClient
@@ -211,7 +211,7 @@ class WebClient
      */
     public static function getInterfaces()
     {
-        $data = self::getJSON('ISteamAPIUtil', 'GetSupportedAPIList');
+        $data = self::getJSON('ISteamWebAPIUtil', 'GetSupportedAPIList');
 
         return object_get(json_decode($data), 'apilist.interfaces');
     }
